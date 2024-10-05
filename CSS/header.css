@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+.header {
+    background-color: #c3bdbd;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo a {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+header button{
+    font-size: 1.1em;
+    font-weight: 500;  
+    transition: .5s;                          
+}
+header button:hover{
+    border-radius: 8px;
+    background-color: rgb(97, 156, 9);
+    color: white;
+}

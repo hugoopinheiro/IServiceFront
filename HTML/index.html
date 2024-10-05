@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IService</title>
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/styleInitialPage.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="#">IService</a>
+        </div>
+        <div class="auth-links">
+            <button id="entrarBtn">entrar</button>
+            <button id="buttonSignIn">criar conta</button>
+        </div>
+    </header>
+
+    <div class="search-bar">
+        <h2>Busque algum serviço que lhe interessa!</h2>
+        <input type="text" placeholder="Digite o serviço desejado...">
+    </div>
+
+    <div class="categories">
+        <div>
+            <a href="#">
+                <img src="icons/pintandoCasa.png" alt="Pinturas">
+            </a>
+            <p>pinturas</p>
+        </div>
+        <div>
+            <a href="#">
+                <img src="icons/furadeira.png" alt="Construção">
+            </a>
+            <p>construção</p>
+        </div>
+        <div>
+            <a href="#">
+                <img src="icons/limpeza.png" alt="Limpeza">
+            </a>
+            <p>limpeza</p>
+        </div>
+        <div>
+            <a href="#">
+                <img src="icons/reparo.png" class="repair" alt="Reparo">
+            </a>
+            <p>reparo</p>
+        </div>
+        <div>
+            <a href="#">
+                <img src="icons/webServiços.png" alt="Web Serviços">
+            </a>
+            <p>web serviços</p>
+        </div>
+        <div>
+            <a href="#">
+                <img src="icons/tendencias.png" class="trend" alt="Tendências">
+            </a>
+            <p>tendencias</p>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="service-box">
+            <a href="productPage.html">
+                <img src="pictures/repair.jpg" class="service-img" alt="Serviço">
+                <p>descrição do serviço</p>
+                <p>preço</p>
+            </a>
+        </div>
+        <div class="service-box">
+            <a href="productPage.html">
+                <img src="pictures/repair.jpg" class="service-img" alt="Serviço">
+                <p>descrição do serviço</p>
+                <p>preço</p>
+            </a>
+        </div>
+        <div class="service-box">
+            <a href="productPage.html">
+                <img src="pictures/repair.jpg" class="service-img" alt="Serviço">
+                <p>descrição do serviço</p>
+                <p>preço</p>
+            </a>
+        </div>
+    </div>
+        
+    <dialog id="dialogSignIn" class="dialogSignIn">
+        <p>Você quer:</p>
+        <button><a href="signInSeller.html">Oferecer serviço</a></button>
+        <button><a href="signInUser.html">Buscar serviço</a></button>
+        <span id="closeDialogSignIn" class="closeDialogSignIn">Fechar</span>
+    </dialog>
+
+    <script src="../script/dialog.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IService</title>
+    <script src="../script/saveUsers.js"></script>
+    <script src="../resources/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/styleSignInPage.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">IService</a>
+        </div>
+    </header>
+
+    <main>
+        <h1>Contrate serviços</h1>
+        <form>
+            <div class="left-column">
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="lastName">Sobrenome</label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+                <div>
+                    <label for="phone">Telefone</label>
+                    <input type="text" id="phone" name="phone">
+                </div>
+            </div>
+            <div class="right-column">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="Email">
+                </div>
+                <div>
+                    <label for="password">senha</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div>
+                    <label for="passwordConfirmation">Digite a senha novamente</label>
+                    <input type="password" id="passwordConfirmation" name="passwordConfirmation">
+                </div>
+            </div>
+            <div class="submit-button">
+                <button type="submit" onclick="SaveUsers()">Cadastrar</button>
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>

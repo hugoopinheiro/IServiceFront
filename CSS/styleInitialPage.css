@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.header {
+    background-color: #c3bdbd;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo a {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+header button{
+    font-size: 1.1em;
+    font-weight: 500;  
+    transition: .5s;                          
+}
+header button:hover{
+    border-radius: 8px;
+    background-color: rgb(97, 156, 9);
+    color: white;
+}
+.auth-links button {
+    background: none;
+    border: none;
+    padding: 5px 10px;   
+    color: #000;
+    text-decoration: none;
+    transition: .3s;
+}
+.search-bar {
+    text-align: center;
+    padding: 20px;
+    background-color: #c3bdbd;
+}
+.search-bar h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 18px;
+    background-color: #c3bdbd;
+}
+.categories div {
+    text-align: center;
+    transition: 0.2s;
+}
+.repair{
+    opacity: 80%;
+}
+.trend{
+    opacity: 75%;
+}
+.categories img {
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+}
+.categories p {
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+.categories > div:hover {
+    transform: translateY(-3px);
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.service-box {
+    background-color: #e0e0e0;
+    width: 28%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.service-box img.service-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.service-box p {
+    margin: 10px 0;
+}
+
+
+/* dialogBox */
+
+.dialogSignIn {
+    width: 50%;
+    height: 40%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+}
+.dialogSignIn a{
+    text-decoration: none;
+    color: white;
+}
+.dialogSignIn p{
+    font-size: 1.6em;
+}
+
+.dialogSignIn button {
+    font-size: .9em;
+    margin: 15px;
+    width: 80px;
+    height: 60px;
+    border: none;
+    padding: 5px 10px;   
+    color: #000;
+    border-radius: 8px;
+    background-color: rgb(97, 156, 9);
+    transition: .3s;
+}
+
+.dialogSignIn button:hover,
+.dialogSignIn button:focus {
+    border-radius: 8px;
+    background-color: rgb(116, 187, 11);
+    cursor: pointer;   
+}
+
+.closeDialogSignIn {
+    width: 70px;
+    height: 20px;
+    display: block;
+    margin: 22px auto;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: .8px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.closeDialogSignIn:hover{
+    border-radius: 8px;
+    background-color: rgb(116, 187, 11);
+    color: white; 
+}
